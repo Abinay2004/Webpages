@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Child Registration</title>
+  <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+  <div class="registration-container">
+    <h2>Child Registration</h2>
+    <form id="childRegistrationForm">
+      <div class="input-group">
+        <label for="username">Child's Name</label>
+        <input type="text" id="username" name="username" placeholder="Enter child's name" required>
+      </div>
+      <div class="input-group">
+        <label for="parentEmail">Parent's Email</label>
+        <input type="email" id="parentEmail" name="parentEmail" placeholder="Enter parent's email" required>
+      </div>
+      <div class="input-group">
+        <label for="dob">Child's Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+      <div class="input-group">
+        <label for="healthDetails">Health Conditions</label>
+        <textarea id="healthDetails" name="healthDetails" placeholder="Enter health details like Marasmus, Kwashiorkor" required></textarea>
+      </div>
+      <button type="submit" class="btn">Register</button>
+    </form>
+  </div>
+
+</body>
+</html>

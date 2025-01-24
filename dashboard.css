@@ -1,0 +1,148 @@
+/* Dashboard Styles */
+.dashboard-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.dashboard-header {
+  background-color: #ff5e62;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.dashboard-header h1 {
+  margin-bottom: 10px;
+}
+
+.dashboard-header p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  background-color: #ff9966;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #ff5e62;
+}
+
+.dashboard-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.dashboard-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.dashboard-content p {
+  font-size: 18px;
+}
+/* Basic Dashboard Styling */
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f3f4f7;
+  }
+  
+  .dashboard-header {
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .logout-btn {
+    background-color: #ff5e62;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d44137;
+  }
+  
+  .dashboard-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .stat-box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+  }
+  
+  .stat-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  .progress-bar div {
+    background-color: #28a745;
+    height: 100%;
+  }
+  
+  .workout-history {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .workout-history table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .workout-history th, .workout-history td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .fitness-goals {
+    margin-top: 40px;
+  }
+  
+  .goal {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .goal p {
+    font-size: 18px;
+  }
+  

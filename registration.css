@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Registration Container */
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.registration-options {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 150px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}

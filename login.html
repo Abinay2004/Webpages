@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login and Registration</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Login Form -->
+    <div id="loginFormContainer" class="form-container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <div class="input-group">
+          <label for="username">Username (Email)</label>
+          <input type="email" id="loginUsername" name="username" placeholder="Enter email" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <div class="password-container">
+            <input type="password" id="loginPassword" name="password" placeholder="Enter password" required>
+            <button type="button" id="toggleLoginPassword" class="toggle-btn">👁️</button>
+          </div>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <p class="error-message" id="loginErrorMessage"></p>
+      </form>
+      <p class="forgot-password">Forgot Password?</p>
+      <p>Don't have an account? <a href="javascript:void(0);" id="showRegisterForm">Register here</a></p>
+    </div>
+
+    <!-- Registration Form -->
+    <div id="registerFormContainer" class="form-container" style="display: none;">
+      <h2>Create an Account</h2>
+      <form id="registrationForm">
+        <div class="input-group">
+          <label for="registerUsername">Username (Email)</label>
+          <input type="email" id="registerUsername" name="username" placeholder="Enter your email" required>
+        </div>
+        <div class="input-group">
+          <label for="registerPassword">Password</label>
+          <div class="password-container">
+            <input type="password" id="registerPassword" name="password" placeholder="Enter password" required>
+            <button type="button" id="toggleRegisterPassword" class="toggle-btn">👁️</button>
+          </div>
+        </div>
+        <div class="input-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+        </div>
+        <button type="submit" class="btn">Register</button>
+        <p class="error-message" id="registerErrorMessage"></p>
+      </form>
+      <p>Already have an account? <a href="javascript:void(0);" id="showLoginForm">Login here</a></p>
+    </div>
+
+    <!-- Loading Spinner (Initially Hidden) -->
+    <div id="loadingSpinner" class="loading-spinner" style="display: none;">
+      <div class="spinner"></div>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

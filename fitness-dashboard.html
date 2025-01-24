@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Dashboard</title>
+  <link rel="stylesheet" href="fitness-dashboard.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="logo">FitnessCare</a>
+      <ul class="navbar-menu">
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="health-details.html">Health Details</a></li>
+        <li><a href="logout.html">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="dashboard-container">
+    <div class="intro">
+      <h1>Welcome, John!</h1>
+      <p>Your fitness journey starts here</p>
+    </div>
+
+    <div class="dashboard-overview">
+      <!-- Health Stats Card -->
+      <div class="dashboard-card health-stats-card">
+        <h2>Health Stats</h2>
+        <div class="health-stats">
+          <div class="stat">
+            <p>Heart Rate</p>
+            <h3>75 bpm</h3>
+          </div>
+          <div class="stat">
+            <p>Blood Pressure</p>
+            <h3>120/80 mmHg</h3>
+          </div>
+          <div class="stat">
+            <p>Oxygen Rate</p>
+            <h3>98%</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diet Plan Card -->
+      <div class="dashboard-card diet-card">
+        <h2>Diet Plan</h2>
+        <ul class="diet-list">
+          <li><strong>Breakfast:</strong> Oatmeal with fruits</li>
+          <li><strong>Lunch:</strong> Grilled chicken and vegetables</li>
+          <li><strong>Dinner:</strong> Brown rice and steamed fish</li>
+          <li><strong>Snacks:</strong> Nuts and yogurt</li>
+        </ul>
+      </div>
+
+      <!-- Activity Log Card -->
+      <div class="dashboard-card activity-log-card">
+        <h2>Activity Log</h2>
+        <ul class="activity-log">
+          <li>Morning Walk - 30 minutes</li>
+          <li>Yoga - 20 minutes</li>
+          <li>Strength Training - 15 minutes</li>
+          <li>Evening Walk - 25 minutes</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Medication Reminder Card -->
+    <div class="dashboard-card medication-card">
+      <h2>Medication Reminder</h2>
+      <p><strong>Next Medication:</strong> 12:00 PM</p>
+      <p>Don't forget to take your prescribed medication for better health.</p>
+    </div>
+  </div>
+
+</body>
+</html>
